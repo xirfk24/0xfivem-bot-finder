@@ -1,0 +1,25 @@
+[project]
+name = "promebot"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Kanjut"}
+]
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "interactions-py (>=5.15.0,<6.0.0)",
+    "sqlalchemy (>=2.0.43,<3.0.0)",
+    "databases (>=0.9.0,<0.10.0)",
+    "pydantic-settings (>=2.10.1,<3.0.0)",
+    "sqlmodel (>=0.0.25,<0.0.26)",
+    "alembic (>=1.16.5,<2.0.0)",
+    "sqlalchemy-utils (>=0.42.0,<0.43.0)",
+    "aiosqlite (>=0.21.0,<0.22.0)",
+    "httpx (>=0.28.1,<0.29.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
